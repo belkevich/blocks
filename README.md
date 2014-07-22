@@ -71,7 +71,7 @@ range_value(12, 1, 10);  // 10 < 12 => 12
 ```
 
 **Safe Malloc**
-Return `NULL` is `malloc` size is 0.
+Return `NULL` if `malloc` size is 0.
 ```objective-c
 size_t x = 0;
 safe_malloc(x);
