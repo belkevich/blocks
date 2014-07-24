@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "macros_blocks"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Useful macros for objective-c blocks."
   s.homepage     = "https://github.com/belkevich/blocks"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
