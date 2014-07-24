@@ -9,7 +9,8 @@
 #ifndef macros_extra_h
 #define macros_extra_h
 
-#define range_value(A,B,C) ({ __typeof__(A) __x = A > B ? A : B; __x < C ? __x : C; })
+#define range_value(value,min,max) ({ __typeof__(value) __x = value > min ? value : min; \
+                                      __x < max ? __x : max; })
 #define safe_malloc(size) ({size > 0 ? malloc(size) : NULL; })
 
 #endif
