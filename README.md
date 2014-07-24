@@ -92,6 +92,9 @@ Follow updates on twitter [@okolodev](https://twitter.com/okolodev)
 
 **Changelog**
 
+**0.0.3**
+* Improved autocomplete for value in range macro
+
 **0.0.2**
 * Added trim value in range macro
 * Added safe malloc macro
